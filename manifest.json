@@ -1,0 +1,25 @@
+{
+  "name": "Make external YouTube shorts regular videos",
+  "description": "Make external shorts regular videos: redirect from /shorts to /watch.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["webNavigation"],
+  "host_permissions": ["https://*.youtube.com/*", "https://youtube.com/*"],
+  "background": {
+    "type": "module",
+    "service_worker": "worker.js",
+    "scripts": ["worker.js"]
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "homepage_url": "https://github.com/alurm/make-external-youtube-shorts-regular-videos",
+  "browser_specific_settings": {
+    "gecko": {
+      "data_collection_permissions": {
+        "required": ["none"]
+      },
+      "id": "@make-external-youtube-shorts-regular-videos.alurm"
+    }
+  }
+}
