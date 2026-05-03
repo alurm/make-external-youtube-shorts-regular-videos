@@ -7,6 +7,6 @@ This extension enables redirects from YouTube `/shorts/<id>` links to `/watch?v=
 # Why?
 
 - You have YouTube shorts blocked via another extension (e.g. via ["Unhook"](https://unhook.app/)).
-- You still want to be able to watch shorts opened externally (the link which someone has sent to you).
+- You still want to be able to watch shorts opened externally (links which someone has sent to you).
 
 This extension makes this easy.
