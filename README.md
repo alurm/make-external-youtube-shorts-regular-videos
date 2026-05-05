@@ -14,4 +14,4 @@ This extension makes this easy.
 # Installation
 
 - [For Chrome or compatible browsers](https://chromewebstore.google.com/detail/make-external-youtube-sho/fhnaglgdjpdfkfdjpmhgleenmedbhkmh)
-- [For Firefox](https://addons.mozilla.org/en-US/firefox/addon/make-external-youtube-shorts-r/)
+- [For Firefox](https://addons.mozilla.org/en-US/firefox/addon/youtube-shorts-regular-videos/)
