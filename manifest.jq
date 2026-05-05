@@ -1,15 +1,19 @@
 {
   "name": "Make external YouTube shorts regular videos",
   "description": "Make external shorts regular videos: redirect from /shorts to /watch.",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 3,
   "permissions": ["webNavigation"],
-  "host_permissions": ["https://*.youtube.com/*", "https://youtube.com/*"],
   "background": {
-    "type": "module",
-    "service_worker": "worker.js",
-    "scripts": ["worker.js"]
-  },
+    "type": "module"
+  } + ({
+    "chrome": {
+      "service_worker": "worker.js"
+    },
+    "firefox": {
+      "scripts": ["worker.js"]
+    }
+  }[$browser] // error("Unknown browser type: " + ($browser | @json) + ". Expected \"chrome\" or \"firefox\".")),
   "icons": {
     "128": "icon.png"
   },
