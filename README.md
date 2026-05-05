@@ -2,6 +2,8 @@
 
 # Make external YouTube shorts regular videos
 
+![Example](example.png)
+
 This extension enables redirects from YouTube `/shorts/<id>` links to `/watch?v=<id>` links for external YouTube shorts.
 
 # Why?
